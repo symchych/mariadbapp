@@ -4,3 +4,4 @@ RUN apk add --no-cache mariadb-dev build-base
 ADD requirements.txt /
 RUN pip install -r /requirements.txt
 WORKDIR /code
+EXPOSE 5000
