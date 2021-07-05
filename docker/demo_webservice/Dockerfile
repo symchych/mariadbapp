@@ -5,4 +5,4 @@ ADD requirements.txt /
 RUN pip install -r /requirements.txt
 WORKDIR /code
 EXPOSE 5000
-CMD [ "python", "/var/lib/jenkins/workspace/test-pipeline/demo_webservice/main.py" ]
+CMD [ "python", "../../demo_webservice/main.py" ]
