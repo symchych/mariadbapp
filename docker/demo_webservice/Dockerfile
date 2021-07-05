@@ -5,4 +5,4 @@ ADD requirements.txt /
 RUN pip install -r /requirements.txt
 WORKDIR /code
 EXPOSE 5000
-CMD [ "python", "./demo_webservice/main.py" ]
+CMD [ "python", "./main.py" ]
